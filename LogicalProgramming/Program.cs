@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
-            Console.WriteLine("choose option 1.Fibonacci \t 2.PerfectNumber \t 3.Primenumber \t 4.Reversenumber \t 5. Dayofweek \t 6.Temperature \t 7.MonthlyPayment \t 8.Squareroot  \t 9. Binaryvalue");
+            Console.WriteLine("choose option 1.Fibonacci \t 2.PerfectNumber \t 3.Primenumber \t 4.Reversenumber \t 5. Dayofweek \t 6.Temperature \t 7.MonthlyPayment \t 8.Squareroot  \t 9. Binaryvalue \t 10.BinarySwap");
             int option = Convert.ToInt32(Console.ReadLine()); 
             switch(option)
             {
@@ -36,6 +36,10 @@
                 case 9:
                     BinaryValue.BinaryConversion();
                     break;
+                case 10:
+                    SwapBinary.BinarySwap(5);
+                    break;
+
             }
         }
     }
