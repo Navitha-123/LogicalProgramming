@@ -37,7 +37,7 @@
                     BinaryValue.BinaryConversion();
                     break;
                 case 10:
-                    SwapBinary.BinarySwap(5);
+                    SwapBinaryValues.BinarySwap(5);
                     break;
 
             }
