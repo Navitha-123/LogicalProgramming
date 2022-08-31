@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
-            Console.WriteLine("choose option 1.Fibonacci \t 2.PerfectNumber \t 3.Primenumber \t 4.Reversenumber");
+            Console.WriteLine("choose option 1.Fibonacci \t 2.PerfectNumber \t 3.Primenumber \t 4.Reversenumber \t 5. Dayofweek");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -20,6 +20,9 @@
                     break;
                 case 4:
                     ReverseNumber.ReversingNumbers();
+                    break;
+                case 5:
+                    DayOfWeek.WeekOfDay();
                     break;
             }
         }
