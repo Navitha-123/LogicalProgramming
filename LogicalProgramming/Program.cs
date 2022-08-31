@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
-            Console.WriteLine("choose option 1.Fibonacci \t 2.PerfectNumber");
+            Console.WriteLine("choose option 1.Fibonacci \t 2.PerfectNumber \t 3.Primenumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -15,6 +15,9 @@
                 case 2:
                     PerfectNumber.NumberPerfect();
                         break;
+                case 3:
+                    PrimeNumber.CalculatePrimeNumber();
+                    break;
             }
         }
     }
