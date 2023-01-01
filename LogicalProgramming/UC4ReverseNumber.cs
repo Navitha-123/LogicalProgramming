@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProgramming
 {
-    internal class ReverseNumber
+    internal class UC4ReverseNumber
     {
         public static void ReversingNumbers()
         {

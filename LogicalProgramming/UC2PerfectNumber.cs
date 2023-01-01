@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProgramming
 {
-    internal class PerfectNumber
+    internal class UC2PerfectNumber
     {
         public static void NumberPerfect()
         {

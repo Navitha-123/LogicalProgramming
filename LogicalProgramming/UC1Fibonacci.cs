@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProgramming
 {
-    internal class Fibonacci
+    internal class UC1Fibonacci
     {
         public static void FibonacciNumbers(int len)
         {

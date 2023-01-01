@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProgramming
 {
-    internal class PrimeNumber
+    internal class UC3PrimeNumber
     {
         public static void CalculatePrimeNumber()
         {
