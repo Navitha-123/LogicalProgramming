@@ -10,7 +10,7 @@
             switch(option)
             {
                 case 1:
-                    Fibonacci.FibonacciNumbers(9);
+                    UC1Fibonacci.FibonacciNumbers(9);
                     break;
                 case 2:
                     PerfectNumber.NumberPerfect();

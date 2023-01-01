@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProgramming
 {
-    internal class SwapBinary
+    internal class SwapBinaryValues
     {
       public static int BinarySwap(int x)
         {
